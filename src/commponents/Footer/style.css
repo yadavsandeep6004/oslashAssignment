@@ -1,0 +1,25 @@
+.footer {
+  margin-top: 20px;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f9fafb;
+  border-top: 1px solid #e5e7eb;
+  border-radius: 0px 0px 8px 8px;
+}
+
+.footer > div {
+  display: flex;
+}
+
+.footer > div img {
+  margin-right: 10px;
+}
+
+.footer > div p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #6b7280;
+}

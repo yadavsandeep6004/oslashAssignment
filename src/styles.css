@@ -1,0 +1,193 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #000;
+}
+.App {
+  margin: 24px;
+}
+
+.btn {
+  background-color: #111827;
+  color: #fff;
+  padding: 8px 16px;
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn img {
+  width: 12px;
+  height: 12px;
+  margin-left: 5px;
+}
+
+.frame1 {
+  background-color: chartreuse;
+  display: inline-block;
+}
+
+/* ====== Card ========= */
+
+.card {
+  padding: 0px 12px;
+  margin-top: 4px;
+  width: 512px;
+  min-height: 262px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.card .card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card .card-header img {
+  width: 32px;
+  height: 32px;
+  margin-right: 15px;
+}
+
+.card-header-text {
+  display: flex;
+}
+
+.card-header-text h3 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #111827;
+}
+
+.card-header-text p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #6b7280;
+}
+
+/* ================== */
+
+/* =========Frame3 ============ */
+
+.frame3 {
+  padding: 12px;
+  max-width: 512px;
+  min-height: 262px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.frame3 .down {
+  position: absolute;
+  top: 0;
+  right: 13px;
+}
+
+textarea {
+  border-radius: 6px;
+  width: 100%;
+  height: 100px;
+  resize: none;
+  padding: 4px;
+}
+
+.select-person {
+  position: absolute;
+  top: 55px;
+  left: 0px;
+  width: 300px;
+  min-height: 50px;
+  padding: 4px;
+  background-color: #fff;
+  display: none;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+input:focus ~ .select-person {
+  display: block;
+}
+.user-name-line {
+  cursor: pointer;
+  margin: 4px 2px;
+  color: gray;
+}
+
+/* ===================== */
+
+/* ==========frame 4 ============ */
+
+.frame4 {
+  padding: 15px 16px;
+  max-width: 512px;
+  min-height: 238px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.close-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #f3f4f6;
+}
+
+.close-box > div {
+  display: flex;
+  background: #e5e7eb;
+  border-radius: 4px;
+  padding: 4px;
+}
+
+.close-box > div button {
+  margin-left: 10px;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+}
+
+.invite-btn {
+  padding: 9px 13px;
+  background: #ffffff;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+}
+
+.avatar-box {
+  padding: 16px 0;
+}
+
+.frame4-bottom {
+  background: #f3f4f6;
+  border-top: 1px solid #e5e7eb;
+  border-radius: 0px 0px 8px 8px;
+  padding: 8px 12px;
+}
+
+.frame4-bottom img {
+  margin-right: 5px;
+}
+
+.frame4-bottom span {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #6b7280;
+}
+
+/* =============== frame5 ================= */
+
+/* ============== */
+.inline-block {
+  display: inline-block;
+  margin: 2px;
+}
+
+.left {
+  float: right;
+  margin: 22px 0px;
+}
